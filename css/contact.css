@@ -140,6 +140,50 @@
   display: block;
 }
 
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.bio-details-spaced {
+  margin-top: 2rem;
+}
+
+/* Form fields */
+.form-field {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  background: var(--cream);
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.form-status {
+  margin-top: 1rem;
+}
+
+/* Stack to one column on small screens */
+@media (max-width: 700px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .contact-grid {

@@ -64,6 +64,13 @@
   50% { opacity: 0.4; }
 }
 
+/* PROFILE IMAGE (used on home + about page) */
+.profile-img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+
 /* AVATAR */
 .avatar-wrap {
   position: relative;
