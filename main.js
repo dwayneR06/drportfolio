@@ -1,6 +1,4 @@
-// ============================================
-// PORTFOLIO - LENA VOSS — main.js
-// ============================================
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
